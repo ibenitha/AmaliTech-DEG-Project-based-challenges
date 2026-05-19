@@ -8,7 +8,9 @@ A keyboard-accessible file explorer for **SecureVault Inc.**, built as a fronten
 
 ## Live Demo
 
-> 🔗 Deployment URL will be added here after deploy — test in **Incognito / Private** window.
+🔗 **[https://amalisecvault.vercel.app](https://amalisecvault.vercel.app)**
+
+> Tested in Incognito / Private window — loads without errors.
 
 ---
 
@@ -178,15 +180,13 @@ src/
 
 ## Pre-Submission Checklist
 
-Before submitting via the course form, confirm:
-
-- [ ] GitHub repository is **Public**
-- [ ] Commit history shows **progress over time** (not one bulk upload)
-- [ ] Live URL works in **Incognito**
-- [ ] No Bootstrap, Material UI, Chakra UI, or Ant Design
-- [ ] Design file link is **viewable by anyone with the link**
-- [ ] This README replaces the original assignment text (not appended)
-- [ ] Design file URL and deployment URL placeholders above are filled in
+- [x] GitHub repository is **Public**
+- [x] Commit history shows **progress over time** (not one bulk upload)
+- [x] Live URL works in **Incognito** — [https://amalisecvault.vercel.app](https://amalisecvault.vercel.app)
+- [x] No Bootstrap, Material UI, Chakra UI, or Ant Design
+- [x] Design file link is **viewable by anyone with the link**
+- [x] This README replaces the original assignment text (not appended)
+- [x] Design file URL and deployment URL are filled in
 
 ---
 
