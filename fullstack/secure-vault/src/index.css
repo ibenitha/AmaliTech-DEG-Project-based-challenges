@@ -1,0 +1,9 @@
+@import './styles/variables.css';
+
+#root {
+  height: 100dvh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
