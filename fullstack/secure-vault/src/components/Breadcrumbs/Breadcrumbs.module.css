@@ -1,0 +1,71 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  padding: 0 20px;
+  height: 40px;
+  background: var(--surface-color);
+  border-bottom: 1px solid var(--border-color);
+  overflow-x: auto;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.breadcrumbs::-webkit-scrollbar { height: 2px; }
+.breadcrumbs::-webkit-scrollbar-thumb { background: var(--border-color); }
+
+.rootItem {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  padding: 3px 6px;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+.rootItem:hover { color: var(--text-primary); background: var(--surface-hover); }
+
+.sep {
+  color: var(--text-muted);
+  font-size: 13px;
+  opacity: 0.4;
+  padding: 0 2px;
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 6px;
+  border-radius: var(--radius-sm);
+  transition: color 0.15s, background 0.15s;
+  flex-shrink: 0;
+}
+
+.itemInactive {
+  color: var(--text-secondary);
+}
+.itemInactive:hover { color: var(--text-primary); background: var(--surface-hover); }
+
+.itemActive {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.copyBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  margin-left: 6px;
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.copyBtn:hover { background: var(--surface-hover); color: var(--text-primary); }
