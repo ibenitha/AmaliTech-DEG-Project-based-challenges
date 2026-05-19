@@ -19,11 +19,23 @@
                 "name": "Discovery_Phase",
                 "type": "folder",
                 "children": [
-                  { "id": "email_1", "name": "Email_Thread_Jan2024.pdf", "type": "file", "size": "4.2MB" },
-                  { "id": "email_2", "name": "Leak_Evidence.png", "type": "file", "size": "8.1MB" }
+                  { "id": "email_1", "name": "Email_Thread_Jan2024.pdf", "type": "file", "size": "4.2 MB", "modified": "2024-01-15" },
+                  { "id": "email_2", "name": "Leak_Evidence.png", "type": "file", "size": "8.1 MB", "modified": "2024-01-18" },
+                  { "id": "email_3", "name": "Witness_Statement_A.pdf", "type": "file", "size": "1.3 MB", "modified": "2024-02-03" },
+                  { "id": "depo_1", "name": "Deposition_Transcript.docx", "type": "file", "size": "560 KB", "modified": "2024-02-10" }
                 ]
               },
-              { "id": "file_summ", "name": "Case_Summary_Draft_v3.docx", "type": "file", "size": "45KB" }
+              {
+                "id": "motions_1",
+                "name": "Motions_Filed",
+                "type": "folder",
+                "children": [
+                  { "id": "mot_1", "name": "Motion_to_Dismiss.pdf", "type": "file", "size": "220 KB", "modified": "2024-03-01" },
+                  { "id": "mot_2", "name": "Motion_Summary_Judgment.pdf", "type": "file", "size": "310 KB", "modified": "2024-03-14" }
+                ]
+              },
+              { "id": "file_summ", "name": "Case_Summary_Draft_v3.docx", "type": "file", "size": "45 KB", "modified": "2024-04-22" },
+              { "id": "timeline_1", "name": "Case_Timeline.xlsx", "type": "file", "size": "88 KB", "modified": "2024-04-25" }
             ]
           },
           {
@@ -31,7 +43,18 @@
             "name": "Smith_Estate_Dispute",
             "type": "folder",
             "children": [
-              { "id": "will_1", "name": "Last_Will_Testament.pdf", "type": "file", "size": "890KB" }
+              { "id": "will_1", "name": "Last_Will_Testament.pdf", "type": "file", "size": "890 KB", "modified": "2023-11-05" },
+              { "id": "will_2", "name": "Probate_Filing.pdf", "type": "file", "size": "450 KB", "modified": "2023-12-01" },
+              { "id": "will_3", "name": "Asset_Inventory.xlsx", "type": "file", "size": "120 KB", "modified": "2024-01-08" }
+            ]
+          },
+          {
+            "id": "case_c",
+            "name": "Reyes_IP_Infringement",
+            "type": "folder",
+            "children": [
+              { "id": "ip_1", "name": "Patent_Filing_US2024.pdf", "type": "file", "size": "2.8 MB", "modified": "2024-05-10" },
+              { "id": "ip_2", "name": "Prior_Art_Research.docx", "type": "file", "size": "670 KB", "modified": "2024-05-15" }
             ]
           }
         ]
@@ -40,7 +63,20 @@
         "id": "leg_2",
         "name": "Archived_2020",
         "type": "folder",
-        "children": [] 
+        "children": [
+          { "id": "arch_1", "name": "Closed_Cases_Index.xlsx", "type": "file", "size": "340 KB", "modified": "2020-12-31" },
+          { "id": "arch_2", "name": "Annual_Report_2020.pdf", "type": "file", "size": "5.6 MB", "modified": "2021-01-15" }
+        ]
+      },
+      {
+        "id": "leg_3",
+        "name": "Templates",
+        "type": "folder",
+        "children": [
+          { "id": "tmpl_1", "name": "NDA_Template.docx", "type": "file", "size": "28 KB", "modified": "2023-06-01" },
+          { "id": "tmpl_2", "name": "Retainer_Agreement.docx", "type": "file", "size": "34 KB", "modified": "2023-06-01" },
+          { "id": "tmpl_3", "name": "Engagement_Letter.docx", "type": "file", "size": "22 KB", "modified": "2023-07-12" }
+        ]
       }
     ]
   },
@@ -54,11 +90,33 @@
         "name": "Payroll",
         "type": "folder",
         "children": [
-          { "id": "pay_feb", "name": "February_2025.xlsx", "type": "file", "size": "2.1MB" },
-          { "id": "pay_mar", "name": "March_2025_Projection.xlsx", "type": "file", "size": "1.8MB" }
+          { "id": "pay_jan", "name": "January_2025.xlsx", "type": "file", "size": "1.9 MB", "modified": "2025-02-01" },
+          { "id": "pay_feb", "name": "February_2025.xlsx", "type": "file", "size": "2.1 MB", "modified": "2025-03-01" },
+          { "id": "pay_mar", "name": "March_2025_Projection.xlsx", "type": "file", "size": "1.8 MB", "modified": "2025-03-28" },
+          { "id": "pay_apr", "name": "April_2025.xlsx", "type": "file", "size": "2.0 MB", "modified": "2025-05-01" }
         ]
       },
-      { "id": "tax_doc", "name": "Tax_Compliance_Checklist.pdf", "type": "file", "size": "340KB" }
+      {
+        "id": "fin_2",
+        "name": "Audits",
+        "type": "folder",
+        "children": [
+          { "id": "aud_1", "name": "Q1_2025_Audit_Report.pdf", "type": "file", "size": "3.4 MB", "modified": "2025-04-10" },
+          { "id": "aud_2", "name": "External_Auditor_Notes.docx", "type": "file", "size": "890 KB", "modified": "2025-04-12" }
+        ]
+      },
+      {
+        "id": "fin_3",
+        "name": "Invoices",
+        "type": "folder",
+        "children": [
+          { "id": "inv_1", "name": "INV-2025-001.pdf", "type": "file", "size": "120 KB", "modified": "2025-01-05" },
+          { "id": "inv_2", "name": "INV-2025-002.pdf", "type": "file", "size": "115 KB", "modified": "2025-02-05" },
+          { "id": "inv_3", "name": "INV-2025-003.pdf", "type": "file", "size": "130 KB", "modified": "2025-03-05" }
+        ]
+      },
+      { "id": "tax_doc", "name": "Tax_Compliance_Checklist.pdf", "type": "file", "size": "340 KB", "modified": "2025-01-20" },
+      { "id": "budget_doc", "name": "FY2025_Budget_Forecast.xlsx", "type": "file", "size": "1.1 MB", "modified": "2025-01-03" }
     ]
   },
   {
@@ -71,15 +129,145 @@
         "name": "Server_Logs",
         "type": "folder",
         "children": [
-          { "id": "log_err", "name": "error_log_x86.txt", "type": "file", "size": "12MB" },
-          { "id": "log_acc", "name": "access_log_main.txt", "type": "file", "size": "45MB" }
+          { "id": "log_err", "name": "error_log_x86.txt", "type": "file", "size": "12 MB", "modified": "2025-05-17" },
+          { "id": "log_acc", "name": "access_log_main.txt", "type": "file", "size": "45 MB", "modified": "2025-05-17" },
+          { "id": "log_sec", "name": "security_events.txt", "type": "file", "size": "8.3 MB", "modified": "2025-05-16" }
         ]
       },
-      { "id": "config_yaml", "name": "docker-compose.yaml", "type": "file", "size": "4KB" }
+      {
+        "id": "sec_configs",
+        "name": "Configurations",
+        "type": "folder",
+        "children": [
+          { "id": "config_yaml", "name": "docker-compose.yaml", "type": "file", "size": "4 KB", "modified": "2025-04-01" },
+          { "id": "config_nginx", "name": "nginx.conf", "type": "file", "size": "6 KB", "modified": "2025-03-15" },
+          { "id": "config_env", "name": ".env.production", "type": "file", "size": "2 KB", "modified": "2025-04-01" }
+        ]
+      },
+      {
+        "id": "sec_certs",
+        "name": "SSL_Certificates",
+        "type": "folder",
+        "children": [
+          { "id": "cert_1", "name": "securevault.com.crt", "type": "file", "size": "3 KB", "modified": "2025-01-01" },
+          { "id": "cert_2", "name": "intermediate_chain.pem", "type": "file", "size": "5 KB", "modified": "2025-01-01" }
+        ]
+      },
+      {
+        "id": "deep_root",
+        "name": "Deep_Audit_Trail",
+        "type": "folder",
+        "children": [
+          {
+            "id": "deep_1",
+            "name": "Level_01",
+            "type": "folder",
+            "children": [
+              {
+                "id": "deep_2",
+                "name": "Level_02",
+                "type": "folder",
+                "children": [
+                  {
+                    "id": "deep_3",
+                    "name": "Level_03",
+                    "type": "folder",
+                    "children": [
+                      {
+                        "id": "deep_4",
+                        "name": "Level_04",
+                        "type": "folder",
+                        "children": [
+                          {
+                            "id": "deep_5",
+                            "name": "Level_05",
+                            "type": "folder",
+                            "children": [
+                              {
+                                "id": "deep_6",
+                                "name": "Level_06",
+                                "type": "folder",
+                                "children": [
+                                  {
+                                    "id": "deep_7",
+                                    "name": "Level_07",
+                                    "type": "folder",
+                                    "children": [
+                                      {
+                                        "id": "deep_8",
+                                        "name": "Level_08",
+                                        "type": "folder",
+                                        "children": [
+                                          {
+                                            "id": "deep_9",
+                                            "name": "Level_09",
+                                            "type": "folder",
+                                            "children": [
+                                              {
+                                                "id": "deep_10",
+                                                "name": "Level_10",
+                                                "type": "folder",
+                                                "children": [
+                                                  {
+                                                    "id": "deep_leaf",
+                                                    "name": "classified_evidence_final.pdf",
+                                                    "type": "file",
+                                                    "size": "128 KB",
+                                                    "modified": "2024-09-01"
+                                                  }
+                                                ]
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
     ]
   },
   {
     "id": "root_4",
+    "name": "04_HR_Department",
+    "type": "folder",
+    "children": [
+      {
+        "id": "hr_1",
+        "name": "Employee_Records",
+        "type": "folder",
+        "children": [
+          { "id": "hr_emp_1", "name": "Onboarding_Checklist.docx", "type": "file", "size": "45 KB", "modified": "2024-08-01" },
+          { "id": "hr_emp_2", "name": "Performance_Review_Template.xlsx", "type": "file", "size": "78 KB", "modified": "2024-09-15" }
+        ]
+      },
+      {
+        "id": "hr_2",
+        "name": "Policies",
+        "type": "folder",
+        "children": [
+          { "id": "hr_pol_1", "name": "Remote_Work_Policy_v2.pdf", "type": "file", "size": "210 KB", "modified": "2024-06-01" },
+          { "id": "hr_pol_2", "name": "Code_of_Conduct.pdf", "type": "file", "size": "180 KB", "modified": "2024-06-01" },
+          { "id": "hr_pol_3", "name": "Data_Privacy_Policy.pdf", "type": "file", "size": "290 KB", "modified": "2024-07-10" }
+        ]
+      },
+      { "id": "hr_org", "name": "Org_Chart_2025.svg", "type": "file", "size": "22 KB", "modified": "2025-01-10" }
+    ]
+  },
+  {
+    "id": "root_5",
     "name": "Shared_Resources",
     "type": "folder",
     "children": [
@@ -88,12 +276,23 @@
         "name": "Brand_Assets",
         "type": "folder",
         "children": [
-          { "id": "logo_svg", "name": "SecureVault_Logo.svg", "type": "file", "size": "15KB" },
-          { "id": "font_main", "name": "Roboto-Bold.ttf", "type": "file", "size": "1.2MB" }
+          { "id": "logo_svg", "name": "SecureVault_Logo.svg", "type": "file", "size": "15 KB", "modified": "2023-03-01" },
+          { "id": "logo_png", "name": "SecureVault_Logo_Dark.png", "type": "file", "size": "42 KB", "modified": "2023-03-01" },
+          { "id": "font_main", "name": "Roboto-Bold.ttf", "type": "file", "size": "1.2 MB", "modified": "2023-03-01" }
+        ]
+      },
+      {
+        "id": "shared_docs",
+        "name": "Company_Docs",
+        "type": "folder",
+        "children": [
+          { "id": "comp_1", "name": "Company_Overview_2025.pdf", "type": "file", "size": "4.1 MB", "modified": "2025-01-01" },
+          { "id": "comp_2", "name": "Investor_Deck_Q1.pdf", "type": "file", "size": "8.7 MB", "modified": "2025-04-01" }
         ]
       }
     ]
   },
-  { "id": "root_file_1", "name": "README_First.txt", "type": "file", "size": "1KB" },
-  { "id": "root_file_2", "name": ".gitignore", "type": "file", "size": "1KB" }
+  { "id": "root_file_1", "name": "README_First.txt", "type": "file", "size": "1 KB", "modified": "2023-01-01" },
+  { "id": "root_file_2", "name": ".gitignore", "type": "file", "size": "1 KB", "modified": "2023-01-01" },
+  { "id": "root_file_3", "name": "SECURITY_POLICY.md", "type": "file", "size": "8 KB", "modified": "2024-11-15" }
 ]
