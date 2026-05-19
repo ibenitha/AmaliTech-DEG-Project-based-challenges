@@ -1,0 +1,106 @@
+.treeItem {
+  display: flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 3px 12px 3px 0;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 0;
+  margin: 0;
+  transition: background-color 0.1s ease;
+  position: relative;
+  outline: none;
+  border-left: 2px solid transparent;
+}
+
+.treeItem:hover {
+  background-color: var(--surface-hover);
+}
+
+/* Selected: teal left border + subtle teal background — matches reference */
+.selected {
+  background-color: var(--surface-selected) !important;
+  border-left-color: var(--accent-color) !important;
+}
+
+.focused:not(.selected) {
+  background-color: var(--surface-hover);
+  outline: 1px solid rgba(20, 184, 166, 0.3);
+  outline-offset: -1px;
+}
+
+/* Indent guide lines */
+.indentGuide {
+  position: absolute;
+  top: 0; bottom: 0;
+  width: 1px;
+  background-color: var(--border-color);
+  opacity: 0.35;
+  pointer-events: none;
+}
+
+/* Chevron */
+.chevron {
+  display: flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px;
+  flex-shrink: 0;
+  color: var(--text-muted);
+  transition: transform 0.18s ease, color 0.12s;
+  border-radius: 3px;
+}
+.chevron:hover { color: var(--text-primary); background-color: rgba(255,255,255,0.06); }
+.chevronOpen { transform: rotate(90deg); }
+
+/* Icon */
+.icon {
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  margin-right: 8px;
+  margin-left: 2px;
+}
+
+/* Label */
+.label {
+  flex: 1;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  color: var(--text-primary);
+}
+
+.selected .label { color: var(--text-primary); }
+
+/* Search highlight */
+.highlight {
+  background-color: rgba(20, 184, 166, 0.2);
+  color: var(--accent-light);
+  border-radius: 2px;
+  padding: 0 1px;
+  font-style: normal;
+}
+
+/* Size badge */
+.sizeBadge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  margin-left: 8px;
+}
+
+/* Child count badge — right-aligned number, matches reference */
+.countBadge {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  margin-left: 8px;
+  min-width: 16px;
+  text-align: right;
+}
+
+.selected .countBadge { color: var(--accent-color); }
+.selected .sizeBadge  { color: var(--text-secondary); }
